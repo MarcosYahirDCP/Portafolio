@@ -170,6 +170,18 @@
       display: none;
       position: relative;
     }
+    #sectionPDF iframe {
+      margin: auto;
+      display: block;
+      width: 80%;
+      height: calc(100vh - 160px);
+      /* viewport height - (navbar height + paddings) */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      margin-bottom: 2%;
+      border-radius: 8px;
+      background-color: white;
+    }
+
 
     #sectionPDF.visible {
       display: block;
@@ -442,6 +454,10 @@
     }
 
     @media (max-width: 768px) {
+      #sectionPDF iframe {
+        width: 95%;
+        height: 80vh;
+      }
       .contact-container {
         grid-template-columns: 1fr;
       }
