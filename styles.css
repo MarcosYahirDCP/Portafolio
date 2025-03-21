@@ -6,9 +6,6 @@
       font-family: "Rubik", sans-serif;
 
     }
-
-
-
     body {
       background-color: #000
     }
@@ -346,9 +343,9 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 40px;
+      width: 60px;
       /* Tamaño del círculo */
-      height: 40px;
+      height: 60px;
       border-radius: 50%;
       /* Hace los bordes redondeados */
       background-color: #333;
@@ -357,9 +354,9 @@
     }
 
     .social-icons .icon img {
-      width: 20px;
+      width: 35px;
       /* Tamaño del ícono */
-      height: 20px;
+      height: 35px;
     }
 
     .social-icons .icon:hover {
